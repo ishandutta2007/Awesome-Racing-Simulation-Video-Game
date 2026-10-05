@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Racing-Simulation-Video-Game?style=flat-square&color=gold" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Racing-Simulation-Video-Game?style=flat-square&color=gold" alt="GitHub_Stars" />
   <img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Racing-Simulation-Video-Game?style=flat-square&color=blue" alt="GitHub Forks" />
   <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Racing-Simulation-Video-Game?style=flat-square" alt="Last Commit" />
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -51,7 +51,7 @@ Welcome to the ultimate directory for **racing simulation software**, **physics-
 
 Discover top open-source racing simulators, rally engines, kart racers, and physics frameworks.
 
-| Repository 📦 | Stars ⭐ | License 📜 | Description & Category 📝 |
+| Repository 📦 | GitHub_Stars ⭐ | License 📜 | Description & Category 📝 |
 | :--- | :--- | :--- | :--- |
 | **[OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2)** | [<img src="https://img.shields.io/github/stars/OpenRCT2/OpenRCT2?style=social&color=white" alt="OpenRCT2 Stars"/>](https://github.com/OpenRCT2/OpenRCT2/stargazers) | GPL-3.0 | Open-source engine reimplementation of RollerCoaster Tycoon 2 with track & ride racing physics. 🎢 |
 | **[SuperTuxKart/stk-code](https://github.com/supertuxkart/stk-code)** | [<img src="https://img.shields.io/github/stars/supertuxkart/stk-code?style=social&color=white" alt="SuperTuxKart Stars"/>](https://github.com/supertuxkart/stk-code/stargazers) | GPL-3.0 | 3D open-source arcade kart racer featuring 20+ tracks, online multiplayer & battle modes. 🏎️🍌 |
@@ -73,7 +73,7 @@ We welcome contributions from motorsport fans, game developers, and sim racers! 
 
 1. **Fork the Repository** 🍴
 2. **Add or Edit Entries** in `README.md` following the exact table structure.
-3. **Ensure Details are Specific**: Include accurate pricing, free tier limits, developer info, and star badges.
+3. **Ensure Details are Specific**: Include accurate pricing, free tier limits, developer info, and Stars_Badges.
 4. **Submit a Pull Request** 🚀 with a brief description of your changes.
 
 ---
