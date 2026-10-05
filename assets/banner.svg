@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a16" />
+      <stop offset="50%" stop-color="#12132c" />
+      <stop offset="100%" stop-color="#1a0b2e" />
+    </linearGradient>
+
+    <!-- Speed Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    </pattern>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00f2fe" stop-opacity="1" />
+      <stop offset="100%" stop-color="#4facfe" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="red-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0844" />
+      <stop offset="100%" stop-color="#ffb199" />
+    </linearGradient>
+
+    <!-- Animated Speed Line Effect -->
+    <style>
+      .speed-line {
+        stroke-dasharray: 200 400;
+        animation: dash 3s linear infinite;
+      }
+      .pulse-bg {
+        animation: pulse 4s ease-in-out infinite alternate;
+      }
+      .glow-text {
+        text-shadow: 0 0 15px rgba(0, 242, 254, 0.6), 0 0 30px rgba(255, 8, 68, 0.4);
+      }
+      @keyframes dash {
+        0% { stroke-dashoffset: 600; }
+        100% { stroke-dashoffset: -600; }
+      }
+      @keyframes pulse {
+        0% { opacity: 0.3; }
+        100% { opacity: 0.7; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg-gradient)" rx="16" />
+  <rect width="1200" height="300" fill="url(#grid)" rx="16" />
+
+  <!-- Dynamic Animated Background Speed Lines & Racing Track Shapes -->
+  <g class="pulse-bg">
+    <!-- Perspective Horizon Curves -->
+    <path d="M-100,320 Q 400,180 1300,280" fill="none" stroke="url(#cyan-glow)" stroke-width="3" />
+    <path d="M-100,340 Q 500,200 1300,310" fill="none" stroke="url(#red-neon)" stroke-width="2" opacity="0.6" />
+  </g>
+
+  <!-- Dynamic Animated Dash Lines (Background Dynamic Aspect) -->
+  <path d="M0,220 L1200,220" stroke="url(#cyan-glow)" stroke-width="2" class="speed-line" opacity="0.5" />
+  <path d="M0,80 L1200,80" stroke="url(#red-neon)" stroke-width="2" class="speed-line" opacity="0.4" />
+
+  <!-- Race Track Apex Curves in Background -->
+  <path d="M 900, -50 C 1100, 50 1100, 250 950, 350" fill="none" stroke="#2a2c5a" stroke-width="40" opacity="0.3" />
+  <path d="M 900, -50 C 1100, 50 1100, 250 950, 350" fill="none" stroke="#00f2fe" stroke-width="2" opacity="0.5" stroke-dasharray="10 15" />
+
+  <!-- Foreground Main Title & Subtitle (Guaranteed Unobscured Visibility) -->
+  <g transform="translate(80, 135)">
+    <!-- Flag / Badge Icon -->
+    <text x="0" y="0" font-family="'Segoe UI', Roboto, sans-serif" font-size="42" fill="#ff0844">🏎️</text>
+    
+    <!-- Main Title -->
+    <text x="65" y="-5" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="44" fill="#ffffff" letter-spacing="1.5" class="glow-text">
+      AWESOME RACING SIMULATION
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="67" y="38" font-family="'Segoe UI', Arial, sans-serif" font-weight="600" font-size="20" fill="#00f2fe" letter-spacing="3">
+      TOP RACING SIMULATORS &amp; OPEN-SOURCE DRIVING ENGINES
+    </text>
+    
+    <!-- Decorative Tagline Pill -->
+    <rect x="67" y="58" width="420" height="26" rx="13" fill="rgba(255, 8, 68, 0.2)" stroke="#ff0844" stroke-width="1" />
+    <text x="80" y="75" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" letter-spacing="1">
+      ⚡ PHYSICS-BASED • GT3 • RALLY • DRIFT • SIMULATORS
+    </text>
+  </g>
+</svg>
